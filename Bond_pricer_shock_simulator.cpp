@@ -14,7 +14,7 @@ double priceBond(double n, double r, double c, double capital=100){ // n = durat
     for (int i =1; i <=n ; i++){
         if(i == n){
             result += (capital+c)/pow(1+r,i); 
-            break;
+            continue;
         };
         result += c/pow(1+r,i); 
     }
