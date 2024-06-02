@@ -12,21 +12,25 @@ using namespace std;
     vector <int>::iterator first = nums.begin();
     vector <int>::iterator end = nums.end() -1; 
     vector <int> :: iterator it; 
-    cout << *end << endl;
-    cout << * (end - 1) << endl; // get the n - 1 ite
+    //cout << *end << endl;
+    //cout << * (end - 1) << endl; // get the n - 1 ite
 
     advance(first, 1); 
-    cout << *first << endl; 
+    //cout << *first << endl; 
 
     for (it = nums.begin(); it < nums.end(); it++){
-        cout << *it << endl;
+        //cout << *it << endl;
 
     }
     //ranged loop 
 
     for (int i : nums){
-        cout << i << endl;
+        //cout << i << endl;
     }
+    //count the number of times an item shows up 
+    int val = 20; 
+    int count_times = count(nums.begin(), nums.end(), val); 
+
 
 }
 
