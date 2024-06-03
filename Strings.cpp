@@ -6,10 +6,10 @@ using namespace std;
 int main() {
 
    char name[] = "Charaf"; 
-   char b[] = "Ilyes";
+   char b[] = "jjajajja";
 
    string fn = "Charaf"; 
-   string lastname = "Ilyes";
+   string lastname = " jajjajajaj";
 
    
    cout << strcat(name,b) << endl;
